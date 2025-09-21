@@ -3,22 +3,20 @@ const APIURL = "http://localhost:3000/films";
 fetch(APIURL)
   .then(res => res.json())
   .then(data => {
-    renderMOvies(data);
+    renderMovies(data); // ✅ fixed typo
     if (data.length > 0) {
       showMovieDetails(data[0]);
     }
   })
   .catch(error => console.error("Error fetching data:", error));
 
-
-function renderMOvies(movies) {
+function renderMovies(movies) {
   const movieList = document.getElementById("movieList");
   movieList.innerHTML = "";
 
   movies.forEach(movie => {
     const div = document.createElement("div");
     div.textContent = movie.title;
-
 
     div.addEventListener("click", () => {
       showMovieDetails(movie);
@@ -31,19 +29,17 @@ function renderMOvies(movies) {
       deleteMovie(movie.id, div);
     };
 
-
+    // styles
     delBtn.style.color = "white";
     delBtn.style.border = "1px solid white";
     delBtn.style.padding = "0.5rem 1rem";
     delBtn.style.cursor = "pointer";
-        delBtn.style.backgroundColor = "blue";
-    
+    delBtn.style.backgroundColor = "blue";
 
     div.append(delBtn);
     movieList.append(div);
   });
 }
-
 
 function showMovieDetails(movie) {
   const title = document.getElementById("title");
@@ -62,8 +58,12 @@ function showMovieDetails(movie) {
 
   updateTickets(movie);
 
-  buyTicketButton.onclick = () => buyTicket(movie);
+  buyTicketButton.onclick = (e) => {
+    e.preventDefault();
+    buyTicket(movie);
 }
+  }
+     
 
 function updateTickets(movie) {
   const availableTickets = document.getElementById("availableTickets");
@@ -78,12 +78,10 @@ function updateTickets(movie) {
 
 function buyTicket(movie) {
   if (movie.tickets_sold < movie.capacity) {
-    movie.tickets_sold++;
-
     fetch(`${APIURL}/${movie.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ tickets_sold: movie.tickets_sold })
+      body: JSON.stringify({ tickets_sold: movie.tickets_sold + 1 }) // ✅ safer
     })
       .then(res => res.json())
       .then(updatedMovie => {
