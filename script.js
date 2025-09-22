@@ -3,7 +3,7 @@ const APIURL = "http://localhost:3000/films";
 fetch(APIURL)
   .then(res => res.json())
   .then(data => {
-    renderMovies(data); // ✅ fixed typo
+    renderMovies(data);
     if (data.length > 0) {
       showMovieDetails(data[0]);
     }
@@ -29,7 +29,6 @@ function renderMovies(movies) {
       deleteMovie(movie.id, div);
     };
 
-    // styles
     delBtn.style.color = "white";
     delBtn.style.border = "1px solid white";
     delBtn.style.padding = "0.5rem 1rem";
@@ -61,9 +60,8 @@ function showMovieDetails(movie) {
   buyTicketButton.onclick = (e) => {
     e.preventDefault();
     buyTicket(movie);
+  };
 }
-  }
-     
 
 function updateTickets(movie) {
   const availableTickets = document.getElementById("availableTickets");
@@ -81,7 +79,7 @@ function buyTicket(movie) {
     fetch(`${APIURL}/${movie.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ tickets_sold: movie.tickets_sold + 1 }) // ✅ safer
+      body: JSON.stringify({ tickets_sold: movie.tickets_sold + 1 })
     })
       .then(res => res.json())
       .then(updatedMovie => {
