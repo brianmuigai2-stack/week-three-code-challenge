@@ -1,5 +1,8 @@
 # 🚀 Week Three Code Challenge  
 
+#### Date: 15/09/2025
+#### By Brian Muigai
+
 > A clean, elegant, and efficient solution to my **Week 3 Coding Challenge**, showcasing problem-solving skills, best practices, and well-documented code.  
 
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
@@ -118,7 +121,7 @@ Feel free to use, modify, and share — just don’t forget to give credit.
 
 👤 Brian Muigai
 
-📧 Email:brian11613bmw.com
+📧 Email:brian11613bmw@gmail.com
 
 🌐 GitHub: brianmuigai2-stack
 
