@@ -72,13 +72,21 @@ console.log(solveChallenge([1, 5, 6, 7, 97, 45, 57]));
 
 
 ├─ src/
+
 │  ├─ main.js          # main solver / exports
+
 │  ├─ utils.js         # helper functions
+
 ├─ test/
+
 │  ├─ main.test.js     # unit tests (Jest)
+
 ├─ index.html          # demo page (if front-end)
+
 ├─ package.json
+
 ├─ README.md
+
 └─ LICENSE
 
 ## 🧪 Testing
@@ -103,6 +111,7 @@ Open a Pull Request 🎉
 ## 📜 License
 
 This project is licensed under the MIT License.
+
 Feel free to use, modify, and share — just don’t forget to give credit.
 
 ## 💡 Contact
