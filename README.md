@@ -51,7 +51,7 @@ Make sure you have the following installed:
 git clone https://github.com/brianmuigai2-stack/week-three-code-challenge.git
 cd week-three-code-challenge
 
-▶️ Run the Project
+## ▶️ Run the Project
 bash
 Copy code
 node index.js
@@ -62,7 +62,7 @@ const { solveChallenge } = require('./src/main');
 
 console.log(solveChallenge([1, 5, 6, 7, 97, 45, 57])); 
 // Output: 97 ✅
-📂 Project Structure
+## 📂 Project Structure
 bash
 Copy code
 /
@@ -75,7 +75,7 @@ Copy code
 ├─ package.json
 ├─ README.md
 └─ LICENSE
-🧪 Testing
+## 🧪 Testing
 bash
 Copy code
 npm test
@@ -85,7 +85,7 @@ npm test
 
 ✅ Ensures reliability of the solution
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions, ideas, and suggestions are always welcome!
 If you’d like to improve this project:
 
@@ -99,20 +99,15 @@ Push branch: git push origin feat/amazing-feature
 
 Open a Pull Request 🎉
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and share — just don’t forget to give credit.
 
-💡 Contact
+## 💡 Contact
 👤 Brian Muigai
 📧 Email: your.brian11613bmw.com
 🌐 GitHub: brianmuigai2-stack
 
-🌟 If you like this project, don’t forget to star ⭐ the repo — it helps a lot!
-pgsql
-Copy code
-
----
-
-🔥 This version **admits professionalism**, adds emojis, badges, and makes the README feel like a project worth checking out.  
+## 🌟 
+If you like this project, don’t forget to star ⭐ the repo — it helps a lot!
 
