@@ -70,9 +70,7 @@ console.log(solveChallenge([1, 5, 6, 7, 97, 45, 57]));
 
 ## 📂 Project Structure
 
-bash
-Copy code
-/
+
 ├─ src/
 │  ├─ main.js          # main solver / exports
 │  ├─ utils.js         # helper functions
@@ -85,14 +83,7 @@ Copy code
 
 ## 🧪 Testing
 
-bash
-Copy code
 npm test
-✅ Checks expected outputs
-
-✅ Validates against edge cases
-
-✅ Ensures reliability of the solution
 
 ## 🤝 Contributing
 
@@ -117,9 +108,12 @@ Feel free to use, modify, and share — just don’t forget to give credit.
 ## 💡 Contact
 
 👤 Brian Muigai
-📧 Email: your.brian11613bmw.com
+
+📧 Email:brian11613bmw.com
+
 🌐 GitHub: brianmuigai2-stack
 
 ## 🌟 
+
 If you like this project, don’t forget to star ⭐ the repo — it helps a lot!
 
