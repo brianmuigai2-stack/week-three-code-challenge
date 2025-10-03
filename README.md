@@ -43,7 +43,9 @@ I built this project not only to solve the challenge, but also to **showcase how
 
 ## Technologies Used
 JavaScript
+
 css 
+
 HTML
 
 ## ⚡ Getting Started  
