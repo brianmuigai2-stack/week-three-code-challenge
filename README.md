@@ -47,13 +47,10 @@ Make sure you have the following installed:
 
 ### 📥 Installation  
 
-```bash
 # clone the repository
 git clone https://github.com/brianmuigai2-stack/week-three-code-challenge.git
 cd week-three-code-challenge
 
-# install dependencies
-npm install
 ▶️ Run the Project
 bash
 Copy code
@@ -119,16 +116,3 @@ Copy code
 
 🔥 This version **admits professionalism**, adds emojis, badges, and makes the README feel like a project worth checking out.  
 
-Do you want me to also **insert the actual Week 3 challenge prompt and your solution explanation** (like “the project finds the maximum number in an array” or “fetches data from API and renders UI”) into the **About** + **Usage** sections? That would make it even more impressive.
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check im
