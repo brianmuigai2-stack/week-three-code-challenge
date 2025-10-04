@@ -95,3 +95,4 @@ function deleteMovie(id, element) {
     .then(() => element.remove())
     .catch(error => console.error("Error deleting movie:", error));
 }
+

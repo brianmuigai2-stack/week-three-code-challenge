@@ -4,17 +4,32 @@ section {
     border: 2px solid gray;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #888888;
+    height: 300px;
 }
 
 img {
     display:flex;
     justify-content: center;
     align-items: center;
-    width:300px;
+    width:400px;
 }
 
 .container {
     display: flex;
     justify-content: space-evenly
+}
+
+button {
+    background-color: blue;
+    border: black;
+    border-radius: 20px;
+    
+}
+
+#movieList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
