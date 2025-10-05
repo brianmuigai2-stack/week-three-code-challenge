@@ -41,7 +41,9 @@ I built this project not only to solve the challenge, but also to **showcase how
 
 ---
 
-## | ⭐ Technology | 💻 Usage |
+## 🛠️ Technologies Used  
+
+| ⭐ Technology | 💻 Usage |
 |--------------|-----------|
 | ![HTML Logo](https://img.icons8.com/color/48/000000/html-5.png) *HTML* | Page structure |
 | ![CSS Logo](https://img.icons8.com/color/48/000000/css3.png) *CSS* | Styling and dark/light mode |
