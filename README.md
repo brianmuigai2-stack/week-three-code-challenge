@@ -41,24 +41,15 @@ I built this project not only to solve the challenge, but also to **showcase how
 
 ---
 
-## 💻 Technologies Used  
+## | ⭐ Technology | 💻 Usage |
+|--------------|-----------|
+| ![HTML Logo](https://img.icons8.com/color/48/000000/html-5.png) *HTML* | Page structure |
+| ![CSS Logo](https://img.icons8.com/color/48/000000/css3.png) *CSS* | Styling and dark/light mode |
+| ![JS Logo](https://img.icons8.com/color/48/000000/javascript.png) *JavaScript* | DOM logic, CRUD operations |
+| ![Database Logo](https://img.icons8.com/ios/50/000000/database.png) *db.json (JSON Server)* | Local backend (feedback storage) |
+| ![GitHub Logo](https://img.icons8.com/ios-glyphs/48/000000/github.png) *GitHub* | Version control & collaboration |
 
-<p align="column">
-  
-  JavaScript
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  
-  
-  HTML 
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40"/>
-  
-  CSS
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/>
-</p>
-
+---
 ## ⚡ Getting Started  
 
 ### 🔑 Prerequisites  
